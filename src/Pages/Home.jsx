@@ -3,7 +3,7 @@ import DefHero from '../common/DefHero'
 import heroImage from '../assets/hero.jpg';
 import Partners from '../common/Partners';
 import JobCard from '../common/JobCard';
-import { jobDetails } from '../common/Data'
+import { jobDetails } from '../data/Data'
 import { Category } from '../components/Category';
 import { Prescence } from '../components/Prescence';
 import { More } from '../components/More';

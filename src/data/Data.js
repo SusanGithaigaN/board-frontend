@@ -15,6 +15,7 @@ import hotel from '../assets/hotel.svg';
 import edu from '../assets/edu.svg';
 import fin from '../assets/fin.svg';
 import trans from '../assets/trans.svg';
+import miller from '../assets/miller.svg';
 
 
 // home section
@@ -88,6 +89,16 @@ export const jobDetails = [
         structure: 'Full time',
         salary: '$38000-$40000',
         location: 'Boston, USA'
+    },
+    {
+        icon: miller,
+        time: '30 min ago',
+        title: 'Forward Accounts Consultant',
+        companyName: 'Miller Group',
+        jobType: 'Financial services',
+        structure: 'Full time',
+        salary: '$45000-$48000',
+        location: 'Boston, USA'
     }
 ]
 
@@ -134,3 +145,59 @@ export const categoryCard = [
         jobs: '1244 jobs'
     },
 ]
+// Category dropdown
+export const categories = [
+    { name: 'Commerce', count: 10 },
+    { name: 'Telecommunications', count: 10 },
+    { name: 'Hotels & Tourism', count: 10 },
+    { name: 'Education', count: 10 },
+    { name: 'Financial Services', count: 10 },
+]
+
+export const jobType = [
+    { name: 'full time', count: 10 },
+    { name: 'part time', count: 10 },
+    { name: 'freelance', count: 10 },
+    { name: 'seasonal', count: 10 },
+    { name: 'fixed price', count: 10 },
+]
+
+export const expLevel = [
+    { name: 'no experience', count: 10 },
+    { name: 'fresher', count: 10 },
+    { name: 'intermediate', count: 10 },
+    { name: 'expert', count: 10 },
+]
+
+export const datePosted = [
+    { name: 'all', count: 10 },
+    { name: 'last hour', count: 10 },
+    { name: 'last 24 hours', count: 10 },
+    { name: 'last 7 days', count: 10 },
+    { name: 'last 30 days', count: 10 },
+]
+
+// Locations
+export const continents = [
+    {
+        locName: "Africa"
+    },
+    {
+        locName: "Antarctica"
+    },
+    {
+        locName: "Asia"
+    },
+    {
+        locName: "Australia"
+    },
+    {
+        locName: "Europe"
+    },
+    {
+        locName: "North America"
+    },
+    {
+        locName: "South America"
+    },
+];

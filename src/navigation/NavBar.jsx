@@ -5,10 +5,10 @@ import heroImage from '../assets/hero.jpg';
 
 const navigation = [
     //   { name: 'Job Portal', href: '#', current: true },
-    { name: 'Home', href: '#', current: false },
-    { name: 'Jobs', href: '#', current: false },
-    { name: 'About Us', href: '#', current: false },
-    { name: 'Contact Us', href: '#', current: false },
+    { name: 'Home', href: '/', current: false },
+    { name: 'Jobs', href: '/jobs', current: false },
+    { name: 'About Us', href: '/about', current: false },
+    { name: 'Contact Us', href: '/contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function NavBar() {
     return (
-        <Disclosure as="nav" className="bg-cover bg-center h-[20px]"    
+        <Disclosure as="nav" className="bg-cover bg-center"    
             style={{
                 backgroundImage: `url(${heroImage})`,
                 backgroundColor: "rgba(0, 0, 0, 0.9)",

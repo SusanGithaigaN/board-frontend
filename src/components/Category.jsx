@@ -1,5 +1,5 @@
 import React from 'react'
-import { categoryCard } from '../common/Data';
+import { categoryCard } from '../data/Data';
 import CategoryCards from '../common/CategoryCards';
 
 export const Category = () => {

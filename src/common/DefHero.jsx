@@ -1,6 +1,6 @@
 import React from "react";
 import DisplayCards from "./DisplayCards";
-import { displayData } from './Data';
+import { displayData } from '../data/Data';
 
 export default function DefHero() {
 

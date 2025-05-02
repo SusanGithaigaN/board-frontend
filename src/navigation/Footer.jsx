@@ -70,7 +70,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className='col-span-full md:col-span-2 flex items-center justify-start text-gray-400 text-xs'>
-                © Susan Githaiga {new Date().getFullYear()}
+                © Copyright Susan Githaiga {new Date().getFullYear()}
             </div>
             <div className='col-span-full md:col-span-2 flex items-center justify-end space-x-4 text-gray-400 text-xs'>
                 <a href='/privacy-policy' className='hover:text-[#309689]'>Privacy Policy</a>
