@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+.bag-img {
+    background-image: url(../assets/placeholder.jpg);
+    background-size: cover;
+    background-position: center;
+}
