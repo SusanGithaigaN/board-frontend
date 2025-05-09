@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 const Hero = ({ title }) => {
     return (
         <div
-            className='w-full bg-black py-24 md:py-32 relative text-white flex items-center justify-center'
+            className='w-full bg-black py-24 md:py-32 relative text-white flex items-center justify-center max-h-[920px]'
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold capitalize">
                     {title}
                 </h1>
             </div>
