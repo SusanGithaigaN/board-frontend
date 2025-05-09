@@ -5,3 +5,4 @@ export const SalarySlider = () => {
     <div>SalarySlider</div>
   )
 }
+export default SalarySlider;
