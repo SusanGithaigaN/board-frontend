@@ -1,11 +1,12 @@
+import place from '../assets/placeholder.jpg';
 import jobs from '../assets/jobs.svg';
 import candi from '../assets/candi.svg';
 import comp from '../assets/comp.svg';
 import bauch from '../assets/bauch.svg';
 import wiso from '../assets/wiso.svg';
-import von from '../assets/von.svg'
-import mraz from '../assets/mraz.svg'
-import corm from '../assets/corm.svg'
+import von from '../assets/von.svg';
+import mraz from '../assets/mraz.svg';
+import corm from '../assets/corm.svg';
 // categories
 import seed from '../assets/seed.svg';
 import metal from '../assets/metal.svg';
@@ -16,7 +17,103 @@ import edu from '../assets/edu.svg';
 import fin from '../assets/fin.svg';
 import trans from '../assets/trans.svg';
 import miller from '../assets/miller.svg';
+// contact
+import clock from '../assets/clock.svg';
+import mail from '../assets/mail.svg';
+import map from '../assets/map-pin.svg';
+import phone from '../assets/phone.svg';
+// partners
+import spotify from '../assets/spotify.svg';
+import adobe from '../assets/adobe.svg';
+import slack from '../assets/slack.svg';
+import asana from '../assets/asana.svg';
+import linear from '../assets/linear.svg';
+import asan from '../assets/asana-w.svg';
+import dribbble from '../assets/dribbble.svg';
+import tinder from '../assets/tinder.svg';
+import zoom from '../assets/zoom.svg';
+// about
+import create from '../assets/create.svg';
+import cv from '../assets/resume.svg';
+import job from '../assets/job-col.svg';
+import apply from '../assets/apply.svg';
+import insta from '../assets/insta.svg';
+import apple from '../assets/apple.svg';
+import donald from '../assets/donald.svg';
+import tesla from '../assets/tesla.svg';
 
+export const works = [
+    {
+        icon: create,
+        cta: 'Create Account',
+        details: 'Nunc sed a nisl purus. Nibh dis faucibus',
+    },
+    {
+        icon: cv,
+        cta: 'Upload Resume',
+        details: 'Felis eu ultrices a sed massa. Commodo',
+    },
+    {
+        icon: job,
+        cta: 'Find Jobs',
+        details: 'Felis eu ultrices a sed massa. Commodo',
+    },
+    {
+        icon: apply,
+        cta: 'Apply Job',
+        details: 'Felis eu ultrices a sed massa. Commodo',
+    },
+]
+
+export const homeCa = [
+    {
+        name: '',
+        count: ''
+    }
+]
+
+// partners
+export const partners = [
+    {
+        img: spotify,
+        alt: 'spotify'
+    },
+    {
+        img: slack,
+        alt: 'slack'
+    },
+    {
+        img: adobe,
+        alt: 'adobe'
+    },
+    {
+        img: asana,
+        alt: 'asana'
+    },
+    {
+        img: linear,
+        alt: 'linear'
+    }
+]
+
+export const partners2 = [
+    {
+        img: asan,
+        alt: 'asana'
+    },
+    {
+        img: dribbble,
+        alt: 'dribbble'
+    },
+    {
+        img: tinder,
+        alt: 'tinder'
+    },
+    {
+        img: zoom,
+        alt: 'zoom'
+    }
+]
 
 // home section
 export const displayData = [
@@ -117,7 +214,7 @@ export const categoryCard = [
     {
         icon: commerce,
         title: 'Commerce',
-        jobs: '2082 obs'
+        jobs: '2082 jobs'
     },
     {
         icon: construct,
@@ -145,6 +242,36 @@ export const categoryCard = [
         jobs: '1244 jobs'
     },
 ]
+
+// Top companies
+export const topCategory = [
+    {
+        icon: insta,
+        title: 'Instagram',
+        desc: 'Elit velit mauris aliquam est diam. Leo sagittis consectetur diam morbi erat',
+        jobs: '8 open jobs'
+    },
+    {
+        icon: tesla,
+        title: 'Tesla',
+        desc: 'At pellentesque amet odio cras imperdiet nisl. Ac magna aliquet massa leo',
+        jobs: '18 open jobs'
+    },
+
+    {
+        icon: donald,
+        title: 'McDonald’s',
+        desc: 'Odio aliquet tellus tellus maecenas. Faucibus in viverra venenatis phasellus',
+        jobs: '12 open jobs'
+    },
+    {
+        icon: apple,
+        title: 'Apple',
+        desc: 'Et odio sem tellus ultrices posuere consequat. Tristique nascetur sapien ',
+        jobs: '9 open jobs'
+    },
+]
+
 // Category dropdown
 export const categories = [
     { name: 'Commerce', count: 10 },
@@ -201,3 +328,95 @@ export const continents = [
         locName: "South America"
     },
 ];
+
+// Contact details
+export const contactInfo = [
+    {
+        icon: phone,
+        cta: 'Call for inquiry',
+        details: '+257 388-6895'
+    },
+    {
+        icon: mail,
+        cta: 'Send us email',
+        details: 'susangithaiga26@gmail.com'
+    },
+    {
+        icon: clock,
+        cta: 'Opening hours',
+        details: 'Mon - Fri: 10AM - 10PM '
+    },
+    {
+        icon: map,
+        cta: 'Office',
+        details: 'Cash me ousside'
+    }
+]
+
+// FAQData
+export const FAQData = [
+    {
+        id: '01',
+        question: 'Can I upload a CV?',
+        answer:
+            'Nunc sed a nisi purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra odio mauris nunc.',
+        expanded: true,
+    },
+    {
+        id: '02',
+        question: 'How long will the recruitment process take?',
+        answer: 'The recruitment process can vary depending on the role and the number of applicants. We aim to keep you informed throughout the process.',
+        expanded: false,
+    },
+    {
+        id: '04',
+        question: 'Do you recruit for Graduates, Apprentices and Students?',
+        answer: 'Yes, we have various programs designed for Graduates, Apprentices, and Students. Please check our careers page for specific opportunities.',
+        expanded: false,
+    },
+    {
+        id: '03',
+        question: 'What does the recruitment and selection process involve?',
+        answer: 'Our recruitment process typically involves application screening, interviews, and sometimes assessments. The specific steps will be outlined for each role.',
+        expanded: false,
+    },
+    {
+        id: '05',
+        question: 'Can I receive notifications for any future jobs that may interest me?',
+        answer: 'Yes, you can sign up for job alerts on our careers page to receive notifications about new opportunities that match your preferences.',
+        expanded: false,
+    },
+];
+
+export const articles = [
+    {
+        icon: 'news',
+        back: place,
+        title: 'Revitalizing Workplace Morale: Innovative Tactics For Boosting Employee Engagement In 2024',
+        date: '30 March 2024',
+    },
+    {
+        icon: 'blog',
+        back: place,
+        title: 'How To Avoid The Top Six Most Common Job Interview Mistakes',
+        date: '30 March 2024',
+    }
+]
+
+export const more = [
+        {
+            amount: '12k+',
+            title: 'Clients worldwide',
+            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+        },
+        {
+            amount: '20k+',
+            title: 'Active resume',
+            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+        },
+        {
+            amount: '18k+',
+            title: 'Companies',
+            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+        }
+    ]

@@ -1,25 +1,9 @@
 import React from 'react';
 import Button from '../common/Button';
 import placeholder from '../assets/placeholder.jpg'
+import { more } from '../data/Data';
 
 export const More = () => {
-    const more = [
-        {
-            amount: '12k+',
-            title: 'Clients worldwide',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
-        },
-        {
-            amount: '20k+',
-            title: 'Active resume',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
-        },
-        {
-            amount: '18k+',
-            title: 'Companies',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
-        }
-    ]
     return (
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
@@ -39,20 +23,29 @@ export const More = () => {
                 ))}
             </div>
             {/* Better future */}
-            <div className="bg-black text-white p-5 rounded-2xl flex items-center justify-between">
-                <div className="text-left w-48">
-                    <h1 className="sm:text-xl md:text-2xl lg:text-4xl font-bold mb-2">Create A Better Future For Yourself</h1>
-                    <p className="text-sm leading-relaxed mb-10">
-                        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
-                        Blandit a massa elementum id scelerisque rhoncus.
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 rounded-2xl overflow-hidden shadow-md bg-black text-white">
+                <div className="relative px-6 py-10 sm:py-16 lg:py-24 md:w-1/2">
+                    <h2 className="text-2xl sm:text-3xl font-extrabold">
+                        Create A Better <br className="sm:hidden" /> Future For Yourself
+                    </h2>
+                    <p className="mt-3 text-sm sm:text-base">
+                        Au eu docendi pertinax iudicabit, amet lucilius ei senserit oblique,
+                        delectus maiestatis intellegam persequeris eu pri.
                     </p>
-                    <Button buttons={[{ href: "/", label: "search job", variant: "primary" }]} />
+                    <div className="mt-6">
+                        <a
+                            href="#"
+                            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-[#309689] hover:bg-[#309689]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#309689]"
+                        >
+                            Search Job
+                        </a>
+                    </div>
                 </div>
-                <div className="flex-shrink-0">
+                <div className="relative md:w-1/2">
                     <img
-                        src={placeholder} 
-                        alt="Future Vision"
-                        className=" h-48 img-fluid " 
+                        className="w-full h-auto object-cover blur-sm"
+                        src={placeholder}
+                        alt="Diverse Professionals"
                     />
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { categoryCard } from '../data/Data';
 import CategoryCards from '../common/CategoryCards';
 
-export const Category = () => {
+export const Browse = () => {
     return (
         <div className='py-4 bg-[#309689]/10'>
             <p className='font-bold text-xl md:text-3xl capitalize p-4 text-center'>Browse by Category</p>
@@ -14,3 +14,4 @@ export const Category = () => {
         </div>
     )
 }
+export default Browse;

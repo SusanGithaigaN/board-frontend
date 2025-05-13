@@ -1,34 +1,9 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import Map from '../components/Map';
-import clock from '../assets/clock.svg';
-import mail from '../assets/mail.svg';
-import map from '../assets/map-pin.svg';
-import phone from '../assets/phone.svg';
+import { contactInfo, partners2 } from '../data/Data';
 
 export const Contact = () => {
-  const contactInfo = [
-    {
-      icon: phone,
-      cta: 'Call for inquiry',
-      details: '+257 388-6895'
-    },
-    {
-      icon: mail,
-      cta: 'Send us email',
-      details: 'susangithaiga26@gmail.com'
-    },
-    {
-      icon: clock,
-      cta: 'Opening hours',
-      details: 'Mon - Fri: 10AM - 10PM '
-    },
-    {
-      icon: map,
-      cta: 'Office',
-      details: 'Cash me ousside'
-    }
-  ]
 
   return (
     <>
@@ -138,6 +113,14 @@ export const Contact = () => {
         {/* map */}
         <div className="py-6 px-4">
           <Map />
+        </div>
+        {/* partners */}
+        <div className='flex flex-row items-start justify-between bg-transparent gap-30 p-2'>
+          {partners2.map((partner, index) => (
+            <div className='partner' key={index}>
+              <img className='img-fluid h-30 w-30' alt={partner.alt} src={partner.img} />
+            </div>
+          ))}
         </div>
       </div>
     </>

@@ -1,39 +1,6 @@
 import { useState } from 'react';
 import { PlusIcon, XMarkIcon } from '@heroicons/react/24/outline';
-
-const FAQData = [
-    {
-        id: '01',
-        question: 'Can I upload a CV?',
-        answer:
-            'Nunc sed a nisi purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra odio mauris nunc.',
-        expanded: true,
-    },
-    {
-        id: '02',
-        question: 'How long will the recruitment process take?',
-        answer: 'The recruitment process can vary depending on the role and the number of applicants. We aim to keep you informed throughout the process.',
-        expanded: false,
-    },
-    {
-        id: '04',
-        question: 'Do you recruit for Graduates, Apprentices and Students?',
-        answer: 'Yes, we have various programs designed for Graduates, Apprentices, and Students. Please check our careers page for specific opportunities.',
-        expanded: false,
-    },
-    {
-        id: '03',
-        question: 'What does the recruitment and selection process involve?',
-        answer: 'Our recruitment process typically involves application screening, interviews, and sometimes assessments. The specific steps will be outlined for each role.',
-        expanded: false,
-    },
-    {
-        id: '05',
-        question: 'Can I receive notifications for any future jobs that may interest me?',
-        answer: 'Yes, you can sign up for job alerts on our careers page to receive notifications about new opportunities that match your preferences.',
-        expanded: false,
-    },
-];
+import { FAQData } from '../data/Data';
 
 const Faq = () => {
     const [faqs, setFaqs] = useState(FAQData);

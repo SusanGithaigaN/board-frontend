@@ -6,7 +6,7 @@ const Category = ({ categories }) => {
     return (
         <div className="mb-4">
             <ul>
-                {categories.map((category) => (
+                {categories && categories.map((category) => (
                     <li key={category.name} className="flex items-center justify-between py-1">
                         <label className="flex items-center">
                             <input type="checkbox" className="form-checkbox h-4 w-4 text-[#309689] rounded border-gray-300 focus:ring-[#309689]" />
@@ -27,6 +27,10 @@ Category.propTypes = {
             count: PropTypes.string.isRequired,
         })
     ).isRequired,
+};
+
+Category.defaultProps = {
+    categories: [],
 };
 
 export default Category;

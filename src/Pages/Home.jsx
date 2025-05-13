@@ -4,9 +4,10 @@ import heroImage from '../assets/hero.jpg';
 import Partners from '../common/Partners';
 import JobCard from '../common/JobCard';
 import { jobDetails } from '../data/Data'
-import { Category } from '../components/Category';
+import Browse from '../components/Browse';
 import { Prescence } from '../components/Prescence';
 import { More } from '../components/More';
+// import { Browse } from '../components/Browse';
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
                 }}
             >
                 {/* Overlay */}
-                <div className="absolute inset-0"></div>
+                {/* <div className="absolute inset-0"></div> */}
                 {/* Content */}
                 <div className="relative z-10">
                     <DefHero />
@@ -35,7 +36,7 @@ export default function Home() {
 
                 <JobCard jobs={jobDetails} />
             </div>
-            <Category />
+           <Browse />
             <Prescence />
             <More />
         </div>

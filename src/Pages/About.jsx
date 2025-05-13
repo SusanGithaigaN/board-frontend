@@ -2,36 +2,12 @@ import React from 'react'
 import Hero from '../common/Hero';
 import GoodLife from '../common/GoodLife';
 import Faq from '../common/Faq'
+import Work from '../components/Work';
 import place from '../assets/placeholder.jpg'
-import create from '../assets/create.svg';
-import cv from '../assets/resume.svg';
-import job from '../assets/job-col.svg';
-import apply from '../assets/apply.svg';
+import { works } from '../data/Data';
+import Blogs from '../components/Blogs';
 
 export const About = () => {
-
-    const works = [
-        {
-            icon: create,
-            cta: 'Create Account',
-            details: 'Nunc sed a nisl purus. Nibh dis faucibus',
-        },
-        {
-            icon: cv,
-            cta: 'Upload Resume',
-            details: 'Felis eu ultrices a sed massa. Commodo',
-        },
-        {
-            icon: job,
-            cta: 'Find Jobs',
-            details: 'Felis eu ultrices a sed massa. Commodo',
-        },
-        {
-            icon: apply,
-            cta: 'Apply Job',
-            details: 'Felis eu ultrices a sed massa. Commodo',
-        },
-    ]
 
     return (
         <>
@@ -50,7 +26,7 @@ export const About = () => {
                 </div>
                 {/* img */}
                 <div className="py-6">
-                    <img className='rounded-2xl img-fluid bg-[#000000]/10' alt='Hello' src={place} />
+                    <img className='rounded-2xl img-fluid bg-[#000000]/10 blur shadow-xl' alt='Hello' src={place} />
                 </div>
                 {/* works */}
                 <div className='text-center space-y-2'>
@@ -78,7 +54,10 @@ export const About = () => {
 
                 {/* FAQs */}
                 <Faq />
-
+                {/* work */}
+                <Work />
+                {/* blog */}
+                <Blogs />
             </div>
         </>
     )

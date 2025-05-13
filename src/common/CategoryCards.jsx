@@ -19,6 +19,9 @@ export const CategoryCards = ({ cards }) => {
                     <p className="font-bold text-base sm:text-base lg:text-xl capitalize">
                         {card.title}
                     </p>
+                    <p className="text-sm text-gray-600">
+                        {card.desc}
+                    </p>
                     <p className="text-xs text-[#309689] font-bold p-2 rounded-md bg-[#309689]/10 w-fit">
                         {card.jobs}
                     </p>
@@ -33,7 +36,7 @@ CategoryCards.propTypes = {
         PropTypes.shape({
             icon: PropTypes.string.isRequired,
             title: PropTypes.string.isRequired,
-            jobs: PropTypes.string.isRequired,
+            desc: PropTypes.string,
         })
     ).isRequired,
 };

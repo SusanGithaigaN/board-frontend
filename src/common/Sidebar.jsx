@@ -4,6 +4,7 @@ import Category from './Category';
 import Button from './Button';
 import { categories, jobType, expLevel, datePosted } from '../data/Data';
 import SalarySlider from './SalarySlider';
+import place from '../assets/placeholder.jpg';
 
 export const Sidebar = () => {
     return (
@@ -50,6 +51,30 @@ export const Sidebar = () => {
                 <h3 className="text-base font-semibold mb-2">Salary</h3>
                 <SalarySlider />
             </div>
+            {/* random img */}
+            <div
+                className='relative rounded-md text-white h-64'
+                style={{
+                    position: "relative",
+                    overflow: "hidden",
+                }}
+            >
+                <div
+                    className="absolute inset-0 blur"
+                    style={{
+                        backgroundImage: `url('${place}')`,
+                        filter: "blur(24px)",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundBlendMode: "overlay",
+                    }}
+                ></div>
+                <div className="relative p-4 font-bold space-y-2 z-10">
+                    <p className='uppercase text-base md:text-xl'>We are hiring</p>
+                    <p className='text-sm md:text-base'>Apply Today!</p>
+                </div>
+            </div>
+
         </div>
     )
 }
