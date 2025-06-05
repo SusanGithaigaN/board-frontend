@@ -149,7 +149,7 @@ export const jobDetails = [
     },
     {
         icon: wiso,
-        time: '12 min ago',
+        time: '12 min ago',    
         title: 'Regional Creative Facilitator',
         companyName: 'Bauch, Schuppe and Schulist Co',
         jobType: 'Media',
