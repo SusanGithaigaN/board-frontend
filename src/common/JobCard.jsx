@@ -9,14 +9,14 @@ import sal from '../assets/g135.svg'
 
 export const JobCard = ({ jobs }) => {
   return (
-    <div className="space-y-4 md:space-y-6">
+    <div className="space-y-4 md:space-y-12">
       {jobs.map((job, index) => (
         <div
           className="p-4 rounded-lg shadow-xl bg-white flex flex-col md:flex-row md:items-center justify-between space-y-4"
           key={index}
         >
           {/* Left Section (Time and Main Content) */}
-          <div className="flex flex-col space-y-4 md:flex-grow">
+          <div className="flex flex-col space-y-4  md:space-y-10 md:flex-grow">
             {/* Time Element */}
             <div className="self-start">
               <p className="text-xs text-[#309689] font-bold px-2 rounded-md bg-[#309689]/10 w-fit">
@@ -79,7 +79,7 @@ export const JobCard = ({ jobs }) => {
               </svg>
             </button>
             <Button
-              buttons={[{ href: "/", label: "Job Details", variant: "primary" }]}
+              buttons={[{ href: "/jobs/:jobId", label: "Job Details", variant: "primary" }]}
             />
           </div>
         </div>

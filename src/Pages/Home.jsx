@@ -3,8 +3,8 @@ import heroImage from "../assets/hero.jpg";
 import Partners from "../common/Partners";
 import JobCard from "../common/JobCard";
 import Browse from "../components/Browse";
-import { Prescence } from "../components/Prescence";
-import { More } from "../components/More";
+import Prescence from "../components/Prescence";
+import More from "../components/More";
 import { useJobs } from "../hooks/useJobs";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
         {/* Overlay */}
         {/* <div className="absolute inset-0"></div> */}
         {/* Content */}
-        <div className="relative z-10">
+        <div className="relative z-10 ">
           <DefHero />
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function Home() {
             recent jobs available
           </p>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Find Your Perfect Fit Today: Explore Our Latest Job Openings and Take the Next Step in Your Career Journey
           </p>
         </div>
 

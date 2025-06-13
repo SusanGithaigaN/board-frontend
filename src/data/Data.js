@@ -46,22 +46,22 @@ export const works = [
     {
         icon: create,
         cta: 'Create Account',
-        details: 'Nunc sed a nisl purus. Nibh dis faucibus',
+        details: 'Join our platform in just a few clicks.',
     },
     {
         icon: cv,
         cta: 'Upload Resume',
-        details: 'Felis eu ultrices a sed massa. Commodo',
+        details: 'Showcase your skills and experience.',
     },
     {
         icon: job,
         cta: 'Find Jobs',
-        details: 'Felis eu ultrices a sed massa. Commodo',
+        details: 'Explore opportunities tailored to you.',
     },
     {
         icon: apply,
         cta: 'Apply Job',
-        details: 'Felis eu ultrices a sed massa. Commodo',
+        details: 'Take the first step toward your dream career.',
     },
 ]
 
@@ -248,26 +248,26 @@ export const topCategory = [
     {
         icon: insta,
         title: 'Instagram',
-        desc: 'Elit velit mauris aliquam est diam. Leo sagittis consectetur diam morbi erat',
+        desc: 'Join a team that’s redefining social connections and empowering creativity worldwide.',
         jobs: '8 open jobs'
     },
     {
         icon: tesla,
         title: 'Tesla',
-        desc: 'At pellentesque amet odio cras imperdiet nisl. Ac magna aliquet massa leo',
+        desc: 'Be part of a revolutionary journey shaping the future of sustainable energy and innovation.',
         jobs: '18 open jobs'
     },
 
     {
         icon: donald,
         title: 'McDonald’s',
-        desc: 'Odio aliquet tellus tellus maecenas. Faucibus in viverra venenatis phasellus',
+        desc: 'Work with a global leader in hospitality, offering opportunities to grow and succeed.',
         jobs: '12 open jobs'
     },
     {
         icon: apple,
         title: 'Apple',
-        desc: 'Et odio sem tellus ultrices posuere consequat. Tristique nascetur sapien ',
+        desc: 'Collaborate with visionaries to create products that transform lives and inspire change.',
         jobs: '9 open jobs'
     },
 ]
@@ -358,20 +358,19 @@ export const FAQData = [
     {
         id: '01',
         question: 'Can I upload a CV?',
-        answer:
-            'Nunc sed a nisi purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra odio mauris nunc.',
+        answer: 'Yes, you can easily upload your CV to our platform. This allows employers to review your qualifications and match you with relevant job opportunities.',
         expanded: true,
     },
     {
         id: '02',
         question: 'How long will the recruitment process take?',
-        answer: 'The recruitment process can vary depending on the role and the number of applicants. We aim to keep you informed throughout the process.',
+        answer: 'The recruitment process varies depending on the employer and the role. Once you apply, you will receive updates as your application progresses.',
         expanded: false,
     },
     {
         id: '04',
         question: 'Do you recruit for Graduates, Apprentices and Students?',
-        answer: 'Yes, we have various programs designed for Graduates, Apprentices, and Students. Please check our careers page for specific opportunities.',
+        answer: 'Absolutely! We have opportunities tailored for graduates, apprentices, and students. Browse our categories to find roles that fit your level of experience and career goals.',
         expanded: false,
     },
     {
@@ -407,16 +406,16 @@ export const more = [
         {
             amount: '12k+',
             title: 'Clients worldwide',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+            desc: 'Trusted by professionals and businesses across the globe to deliver results.',
         },
         {
             amount: '20k+',
             title: 'Active resume',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+            desc: 'Showcasing talents ready to make an impact in the global workforce.',
         },
         {
             amount: '18k+',
             title: 'Companies',
-            desc: 'At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum',
+            desc: 'Partnering with leading organizations to create meaningful career opportunities.',
         }
     ]

@@ -6,7 +6,7 @@ import { more } from '../data/Data';
 export const More = () => {
     return (
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 py-6 md:py-16'>
                 {more.map((more, index) => (
                     <div
                         className="flex flex-col rounded-2xl bg-white items-start space-y-2 p-4"
@@ -29,15 +29,14 @@ export const More = () => {
                         Create A Better <br className="sm:hidden" /> Future For Yourself
                     </h2>
                     <p className="mt-3 text-sm sm:text-base">
-                        Au eu docendi pertinax iudicabit, amet lucilius ei senserit oblique,
-                        delectus maiestatis intellegam persequeris eu pri.
+                        Take charge of your career journey and unlock opportunities that lead to growth, success, and fulfillment.
                     </p>
                     <div className="mt-6">
                         <a
                             href="#"
                             className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-[#309689] hover:bg-[#309689]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#309689]"
                         >
-                            Search Job
+                            Search Jobs
                         </a>
                     </div>
                 </div>
@@ -52,3 +51,4 @@ export const More = () => {
         </div>
     )
 }
+export default More;

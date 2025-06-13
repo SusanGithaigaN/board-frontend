@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import NavBar from "./navigation/NavBar";
 import Footer from "./navigation/Footer";
 import JobDetails from "./common/JobDetails";
+import NotFound from "./common/NotFound";
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/details" element={<JobDetails />} />
+        {/* demo route to fetch job details */}
+        <Route path="/jobs/:jobId" element={<JobDetails />} />
+        {/* non-existent pages redirect */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

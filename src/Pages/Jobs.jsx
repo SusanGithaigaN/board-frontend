@@ -31,8 +31,7 @@ const jobs = useJobs();
           Top Company
         </p>
         <p className="text-sm text-center">
-          At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit
-          a massa elementum
+          Partnering with industry leaders to bring you exceptional career opportunities.
         </p>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Render the cards here */}
